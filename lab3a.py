@@ -4,7 +4,9 @@
 # Author ID: 'spaudel11'
 
 def return_text_value():
-    return "Good Morning Terry"
+    name = 'Terry'
+    greeting = 'Good Morning ' + name 
+    return greeting
    
 
 # return_number_value() function
